@@ -1,0 +1,83 @@
+.bar-card{
+    display:flex;
+    position:absolute;
+    justify-content: end;
+    align-items:center;
+    top: 9% !important;
+    left:20%;
+    width: 28rem;
+    height: 2.5rem;
+    background: green;
+    border-radius: 0.4rem;
+    z-index:3;
+}
+
+.bar-card > button{
+    background: transparent;
+    width: 18px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+}
+.down-text {
+    font-size: 30px;
+    color: #fff;
+}
+
+
+.container-card{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    position: absolute;
+    top: 10% !important;
+    left:20% !important;
+    width: 28rem;
+    height : 30rem;
+    background: #fff; 
+    color:black;
+    border-radius: 0.7rem;
+    z-index: 2;
+}
+
+.container-card > span{
+    margin-top: 2rem;
+    color: black;
+}
+
+textarea{
+    border: solid 1px black;
+    margin-top:70%;
+    border-radius: 8px;
+}
+
+.card-info{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    width: 200px;
+    height: 120px;
+    background: blue;
+    border: 2px solid #fff;
+    text-align: center;
+    //line-height: 120;
+    border-radius: 8px;
+    color: white;
+    z-index: 4;
+}
+
+.card-hover{
+    display:flex;
+    position: absolute;
+    top: 22%;
+    left: 100%;
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    //background-color: #fff;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    z-index:9;
+}
